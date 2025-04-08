@@ -137,4 +137,18 @@ https://github.com/cv-cat/XianYuApis
  </picture>
 </a>
 
+## 环境变量配置
+
+系统使用以下环境变量进行配置：
+
+- `OPENAI_API_KEY`: OpenAI API密钥，用于调用OpenAI和DashScope API
+- `DASHSCOPE_APP_ID`: DashScope应用ID
+- `LOG_LEVEL`: 日志级别，可选值为 "DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"，默认为 "INFO"
+- `INCLUDE_HISTORY`: 是否在回复中包含历史记录，可选值为 "true" 或 "false"，默认为 "true"
+- `INCLUDE_PRODUCT_INFO`: 是否在回复中包含产品信息，可选值为 "true" 或 "false"，默认为 "true"
+
+## 许可证
+
+MIT License
+
 
